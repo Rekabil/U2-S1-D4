@@ -1,0 +1,77 @@
+body {
+  background-color: gray;
+}
+h1 {
+  margin: 20px 490px;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 20px 40px;
+  background: magenta;
+  margin-bottom: 50px;
+}
+
+.task {
+  background-color: blue;
+  margin-bottom: 30px;
+  margin-left: 75px;
+  width: 200px;
+  height: 150px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 6px 10px black;
+  transition-property: scale;
+  transition-duration: 1s;
+  animation: coming 3s normal forwards;
+}
+@keyframes coming {
+  from {
+    scale: 5;
+  }
+}
+
+.task h4 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.tyellow {
+  background-color: yellow;
+}
+.tpurple {
+  background-color: blueviolet;
+}
+.tgreen {
+  background-color: greenyellow;
+}
+
+.t1 {
+  rotate: -5deg;
+  animation: coming 3s normal forwards;
+}
+.t2 {
+  rotate: 5deg;
+}
+.t3 {
+  rotate: -9deg;
+}
+.t4 {
+  rotate: 12deg;
+}
+.t5 {
+  rotate: -5deg;
+}
+.t6 {
+  rotate: -7deg;
+}
+.t7 {
+  rotate: -5deg;
+}
+.t8 {
+  rotate: 4deg;
+}
+
+.task:hover {
+  scale: 1.3 1.3;
+}
